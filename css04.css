@@ -240,6 +240,6 @@ body {
 
 .my-intenal-nav .active a{
 	background-color: #999999 !important;
-	border: none;
+	border: none !important;
 	color: white !important;
 }

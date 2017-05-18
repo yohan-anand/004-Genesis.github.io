@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<!-- coz Bootstrap uses HTML5 properties -->
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+
+		<!--to make bootstrap mobile-responsive(take full width, and default zoom to 1x)-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--to include bootstrap css, jquery and bootstrap js (***Order is important jquery supports bootstrap js hence imported first)-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Custom CSS -->
+		<link rel="stylesheet" href="css04.css" type="text/css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+	<div class="container">
+		<div class="my-container">
+			<div class="my-navbar">
+				<header class="navbar-brand my-brand"><img src="./images/genesis.png" alt="GENESIS"></header>
+				<ul class="nav nav-tabs navbar-tabs navbar-collapse text-uppercase">
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Sample Pages</a></li>
+					<li><a href="#">Homepage</a></li>
+				</ul>
+			</div>
+
+			<div class="text-center my-block top-block">
+				We provide a free and extendible platform for you and your experts to engage with customes and clients via your website
+			</div>
+
+			<div id="photo-slider" class="my-block carousel slide my-slider" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#photo-slider" data-slide-to="1"></li>
+					<li data-target="#photo-slider" data-slide-to="2"></li>
+					<li data-target="#photo-slider" data-slide-to="3"></li>
+					<li data-target="#photo-slider" data-slide-to="4"></li>
+				</ol>
+
+				<div class="carousel-inner" role="list-box">
+					<div class="item active">
+						<img class="img-responsive" src="http://i.imgur.com/Gmfdh6J.jpg" alt="Pokemon">
+					</div>
+
+					<div class="item">
+						<img class="img-responsive" src="http://i.imgur.com/QSjYTNH.jpg" alt="Pokemon">
+					</div>
+
+					<div class="item">
+						<img class="img-responsive" src="http://i.imgur.com/HwB7B8S.jpg" alt="Pokemon">
+					</div>
+
+					<div class="item">
+						<img class="img-responsive" src="http://i.imgur.com/4hJgdQv.jpg" alt="Pokemon">
+					</div>
+				</div>
+
+				<a class="left carousel-control" href="#photo-slider" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#photo-slider" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+			<div class="my-block">
+				<div class="row">
+
+					<div class="col-sm-4 text-center">
+						<div class="my-icon-holder">
+							<button class="btn btn-circle my-icon">
+								<i class="fa fa-shopping-bag fa-3x" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="icon caption">
+							<span class="text-uppercase">Responsive <strong>Design</strong></span><br/>
+							<small>Lorem ipsum del fatani.</small>
+						</div>
+					</div>
+
+					<div class="col-sm-4  text-center">
+						<div class="my-icon-holder">
+							<button class="btn btn-circle my-icon">
+								<i class="fa fa-cog fa-4x" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="icon caption">
+							<span class="text-uppercase">Eazy <strong>Customize</strong></span><br/>
+							<small>Lorem ipsum del fatani.</small>
+						</div>
+					</div>
+
+					<div class="col-sm-4  text-center">
+						<div class="my-icon-holder">
+							<button class="btn btn-circle my-icon">
+								<i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="icon caption">
+							<span class="text-uppercase">24/7 Live <strong>Support</strong></span><br/>
+							<small>Lorem ipsum del fatani.</small>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="my-block">
+				<div class="my-block">
+					<div class="text-uppercase my-header">
+						<strong>Our </strong><strong class="my-pink"> works</strong>
+						<span class="my-dotted-bar"></span>
+					</div>
+					<div class="row my-gallery">
+						<div class="col-sm-3">
+							<img class="my-img" src="http://www.theliquidateher.com/landscape-vision-2.jpg" />
+							<div class="caption">
+								<h6 class="my-caption-title text-uppercase">Home with lane</h6>
+								<p class="my-caption-text">to blow your mind!</p>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<img class="my-img" src="http://www.theliquidateher.com/landscape-vision-7.jpg" />
+							<div class="caption">
+								<h6 class="my-caption-title text-uppercase">Home with garden</h6>
+								<p class="my-caption-text">to blow your mind!</p>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<img class="my-img" src="https://s-media-cache-ak0.pinimg.com/originals/25/c7/2b/25c72bfa05fae4cbf4b5ce10ba0760b8.jpg" />
+							<div class="caption">
+								<h6 class="my-caption-title text-uppercase">Home with birdpool</h6>
+								<p class="my-caption-text">to blow your mind!</p>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<img class="my-img" src="http://landscapingdesignswny.com/wp-content/uploads/2011/04/landscaping-2.jpg" />
+							<div class="caption">
+								<h6 class="my-caption-title text-uppercase">Old style</h6>
+								<p class="my-caption-text">to blow your mind!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="my-block">
+					<div class="row my-margin-row">
+						<div class="col-md-4">
+							<div class="my-header text-uppercase">
+								<strong>Latest Blog Posts</strong>
+                <span class="my-dotted-bar"></span>
+							</div>
+							<div class="row my-margin-row">
+								<div class="col-xs-3 my-date">
+									<div class="my-date-box">
+										<div class="my-date-num">17</div>
+										<div class="my-date-month text-uppercase">Mar 2017</div>
+									</div>
+								</div>
+
+								<div class="col-xs-9">
+									<h6>lorem Ipsum Text</h6>
+									<small>description here</small>
+								</div>
+							</div>
+
+							<div class="row my-margin-row">
+								<div class="col-xs-3 my-date">
+									<div class="my-date-box">
+										<div class="my-date-num">17</div>
+										<div class="my-date-month text-uppercase">Mar 2017</div>
+									</div>
+								</div>
+
+								<div class="col-xs-9">
+									<h6>lorem Ipsum Text</h6>
+									<small>description here</small>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xs-3 my-date">
+									<div class="my-date-box">
+										<div class="my-date-num">17</div>
+										<div class="my-date-month text-uppercase">Mar 2017</div>
+									</div>
+								</div>
+
+								<div class="col-xs-9">
+									<h6>lorem Ipsum Text</h6>
+									<small>description here</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-8">
+							<div class="my-header text-uppercase">
+								<strong>Why Choose Us?</strong>
+                <span class="my-dotted-bar"></span>
+							</div>
+
+							<div>
+								<div class="col-sm-3">
+                  <!--   <ul class="nav nav-tabs my-nav">
+                      <li class="active"><a class="col-xs-6 btn btn-block my-tab-btn" data-toggle="tab" href="#signup">Sign Up</a></li>
+                      <li><a class="col-xs-6 btn btn-block my-tab-btn" data-toggle="tab" href="#login">Log In</a></li>
+                    </ul> -->
+									<ul class="nav nav-tabs nav-stacked my-intenal-nav">
+										<li class="active"><a class="text-uppercase" data-toggle="tab" >Colors and Fonts</a></li>
+										<li><a class="text-uppercase" data-toggle="tab" >SEO</a></li>
+										<li><a class="text-uppercase" data-toggle="tab" >Dynamic Templates</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-9">
+									<p>
+										<span class="my-text-highlight">Mr. John Doe</span> is nominated for the title of The Best Employee of the Quarter.
+										<blockquote>
+											"Lorem ipsum text goes here."
+										</blockquote>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="my-block">
+					<div class="text-uppercase my-header">
+						<strong>Our Clients</strong>
+            <span class="my-dotted-bar"></span>
+					</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="jumbotron text-center">
+								Pikachu
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="jumbotron text-center">
+								Charmander
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="jumbotron text-center">
+								Bulbasaur
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="jumbotron text-center">
+								Squirtle
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    </body>
+</html>

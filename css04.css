@@ -1,0 +1,245 @@
+body {
+	/*
+	background-image: url(https://68.media.tumblr.com/bacfa484d656917115270944245c09e5/tumblr_inline_njy51xx1Yg1rbx4br.png);
+	background-height: 14px;
+	background-width: 8px;
+	*/
+	font-family: 'Open Sans', ariel;
+	background-color: #E9E9E9;
+}
+.container {
+	padding: 0px;
+}
+.my-container {
+	margin: 10px auto;
+	background-color: white;
+}
+
+.my-brand {
+	font-size: 30px;
+	color: white;
+	padding: 5px !important;
+}
+
+.my-navbar {
+	border-bottom: 4px solid #ED4243;
+	background-color: #111111;
+	width: 100%;
+}
+
+.my-navbar ul {
+	text-align: right;
+}
+
+.my-navbar ul li {
+	float: right;
+	margin: 0px;
+}
+
+.my-navbar ul li a{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	border-radius: 0px;
+	margin: 0px;
+	color: white;
+	width: 100%;
+}
+
+.my-navbar ul li :focus{
+	background-color: #ED4243;
+}
+
+.my-navbar ul li :hover{
+	background-color: #ED4243;
+}
+.my-navbar .nav-right {
+	display: block;
+}
+
+.my-navbar .nav-tabs {
+	border: none;
+}
+
+.my-block {
+	padding: 5px;
+	background-color: white;
+}
+
+.my-header {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	white-space: nowrap;
+	display: flex;
+}
+
+.my-dotted-bar {
+  background: -webkit-radial-gradient(#d0d1d3 10%, white 65%);
+  background-size: 2px 2px;
+	display: inline-flex;
+	height: 8px;
+	flex-direction: row;
+	flex-grow: 1;
+	align-self: center;
+}
+
+.my-header strong {
+	padding-right: 10px;
+}
+
+.top-block {
+	padding: 15px ;
+}
+
+.my-slider {
+	box-shadow: 0px 3px 2px lightgrey, 0px -3px 2px lightgrey;
+	padding: 0px;
+}
+
+.my-pink {
+	color: #ED4243;
+}
+
+.my-title {
+	padding: 2px;
+}
+
+.my-img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+}
+
+.my-caption-title {
+	text-align: center;
+	margin-top: 14px;
+	margin-bottom: 4px;
+	font-size: 10px;
+	width: 100%;
+}
+
+.my-caption-text {
+	text-align: center;
+	font-size: 10px;
+	width: 100%;
+	color: #ED4243;
+}
+
+.my-margin-row {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.my-date-box {
+	width: 60px;
+}
+
+.my-date-num {
+	width: 100%;
+	background-color: #ED4243;
+	text-align: center;
+	color: white;
+	padding: 4px auto;
+	font-size: 24px;
+	font-weight: 400%;
+}
+
+.my-date-month {
+	background-color: #111111;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 400%;
+	color: white;
+	padding: 5px;
+}
+
+.my-text-highlight {
+	background-color: #999999;
+	color: white;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+.my-intenal-nav {
+	border-right: 1px solid #999999;
+	height: 100%;
+}
+
+.nav-tabs li a {
+	margin: 0px;
+	border: 0px;
+	border-radius: 4px 0px 0px 4px;
+	color: #999999;
+	font-size: 10px;
+	padding: 10px;
+}
+
+.my-block .nav li a:hover{
+	background-color: #999999;
+	color: white;
+	border-radius: 4px 0px 0px 4px !important;
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+
+.my-icon {
+	padding: 20px;
+	background-color: #ED4243;
+	color: white;
+	border-radius: 60px;
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+.my-icon-holder .btn:hover, .my-icon-holder .btn:focus {
+	color: white;
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+
+.my-icon-holder {
+	border: none;
+}
+
+.my-icon-caption p {
+	text-align: center;
+	color: #E9E9E9;
+	font-size: 10px;
+}
+
+.my-arrow-btn {
+	background-color: lightgrey;
+	color: grey;
+	border-radius: 0px;
+	border: none;
+	height: 15px;
+	width: 15px;
+	text-align: center;
+	padding: 2px;
+}
+
+.my-arrow-btn:hover {
+	color: lightgrey;
+	background-color: grey;
+}
+
+.my-header strong {
+	height: 100%;
+	background-color: white;
+}
+
+.my-date {
+	padding-right: 0px;
+}
+
+.my-intenal-nav .active a{
+	background-color: #999999 !important;
+	border: none;
+	color: white !important;
+}
